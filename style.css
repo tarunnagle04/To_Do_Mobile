@@ -1,0 +1,275 @@
+*{
+    margin: 0;padding: 0;
+}
+
+#majorBox {
+    background-color: #67676729;
+    height: 700px;
+    width: 99vw;
+    /* opacity: .5; */
+}
+
+#navbar {
+    top: 0px;
+    left: 150px;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    /* align-items: center; */
+
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 30px #7b7b7b29;
+    opacity: 1;
+    justify-content: flex-start;
+}
+
+#plus {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: #00a5ec;
+}
+
+#T {
+    width: 100px;
+    height: 40px;
+    font: normal normal bold 40px/40px Inter;
+    color: #424242;
+    padding-top: 5px;
+}
+
+#L {
+    width: 100px;
+    height: 40px;
+    font: normal normal bold 40px/40px Inter;
+    color: #00a5ec;
+    padding-top: 5px;
+
+
+}
+
+.infoBox {
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+    position: relative;
+    left: -450px;
+}
+
+.info {
+    background-color: #FFFFFF;
+    width: 336px;
+    height: 360px;
+    border-radius: 15px;
+    position: relative;
+    left: 450px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.info1 {
+    background-color: #FFFFFF;
+    width: 336px;
+    height: 360px;
+    border-radius: 15px;
+    position: relative;
+    left: 890px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.Head {
+    padding: 20px;
+    color: #00A5EC;
+}
+
+
+.info:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 5px grey;
+}
+.info1:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 5px grey;
+}
+
+.first {
+    display: flex;
+
+}
+
+.second {
+    display: flex;
+}
+
+#hr {
+    color: #EDEDED;
+}
+
+#secondItem {
+    width: 600px;
+    height: 350px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin: 20px;
+    position: relative;
+    top: -1080px;
+    left: 355px;
+}
+
+#secondItem:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 5px grey;
+    /* background-color: blue; */
+}
+
+.icons1 {
+    color: #424242;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 150px;
+}
+.icons2 {
+    color: #424242;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 450px;
+}
+.icons3 {
+    color: #424242;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 70px;
+}
+
+#flex {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+.navbarbottom1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    /* margin-right: 150px;
+      margin-top: 50px; */
+
+}
+
+#backer {
+    display: flex;
+    font-size: 150%;
+
+
+    /* justify-content: space-between; */
+}
+
+#container {
+    display: flex;
+}
+
+#C {
+    margin: 20px;
+    font-size: 125%;
+    position: relative;
+}
+
+#secondItem{
+    width: 340px;
+    height: 250px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin: 20px;
+    /* position: relative;
+    top: -1000px;
+    left: -15px; */
+  }
+  #Add{
+    height: 21;
+    width: 124;
+    font-weight: 50;
+    position: relative;
+    left: 20px;
+    padding-top: 20px;
+  }
+  #AddForm{
+    width: 300px;
+    height: 46px;
+    border-radius: 10px;
+    background-color: #67676729;
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+    margin: 20px;
+  }
+  #sub{
+    width: 180px;
+    height: 48px;
+    color: white;
+    background-color: #00A5EC;
+    border-radius: 10px;
+    font-size: large;
+    position: relative;
+    left: 150px;
+    bottom: 40px;
+    margin-top: 40px;
+  }
+
+#web{
+    /* width: 99vw; */
+    display: flex;
+    /* margin: 20px; */
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 412px) {
+    #web{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 460px;
+    }
+    #majorBox {
+        background-color: #67676729;
+        height: 1300px;
+        width: 99vw;
+        /* opacity: .5; */
+    }
+    #childMajor{
+        filter: blur(5px);
+
+    }
+    #secondItem{
+        position: relative;
+        left: 10px;
+    }
+    .info {
+        position: relative;
+        left: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .info1 {
+        position: relative;
+        left: 485px;
+    }
+    .icons1 {
+        position: relative;
+        bottom: -20px;
+    }
+    .icons2 {
+        position: relative;
+        bottom: 250px;
+    }
+    .icons3 {
+        position: relative;
+        bottom: -20px;
+        left: -10px;
+    }
+    
+}
